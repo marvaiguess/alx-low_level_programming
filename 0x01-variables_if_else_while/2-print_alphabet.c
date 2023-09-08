@@ -5,13 +5,13 @@
  *
  * Return: Always (Success)
  */
-int main(void)
+int main(void) 
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-
+	char alphabet = 'a';
+	while (alphabet <= 'z')
+	{
+		putchar(alphabet);
+		alphabet++;
+	}
 	putchar('\n');
 	return (0);
-}}
